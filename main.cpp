@@ -28,8 +28,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		LONGLONG time = GetNowHiPerformanceCount();
 		// 画面のクリア
 
-		DrawString(160, 160, "gitのテスト 大原太郎", GetColor(255, 255, 255));
-		ClearDrawScreen();
+		DrawString(160, 160, "gitのテスト 西村龍太", GetColor(255, 255, 255));
+		DrawString(100, 100, "おいしーヤミー感謝感謝またいっぱい食べたいなデリシャ、シャ、シャ、シャ、シャ、happy smile", GetColor(255, 255, 255));
+		//ClearDrawScreen();
 
 		// 裏画面と表画面を入れ替える
 		ScreenFlip();
